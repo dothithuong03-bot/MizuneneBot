@@ -165,36 +165,36 @@ export const botConfig = {
       // Plural display name.
       namePlural: "coins",
       // Currency symbol shown in balances.
-      symbol: "+",
+      symbol: "<:mizunene_tower:1521774840984371282>",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 100,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 500,
 
     // Work command random payout range.
     workMin: 10,
-    workMax: 100,
+    workMax: 1500,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 1,
+    begMax: 100,
 
     // Command cooldowns (milliseconds).
     cooldowns: {
       daily: 24 * 60 * 60 * 1000,
-      work: 60 * 60 * 1000,
-      crime: 2 * 60 * 60 * 1000,
-      rob: 4 * 60 * 60 * 1000,
+      work: 30 * 1000,
+      crime: 60 * 1000,
+      rob: 60 * 1000,
     },
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.5,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
