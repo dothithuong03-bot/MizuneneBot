@@ -165,7 +165,7 @@ export const botConfig = {
       // Plural display name.
       namePlural: "coins",
       // Currency symbol shown in balances.
-      symbol: "<:mizunene_tower:1521774840984371282>",
+      symbol: "+",
     },
 
     // Starting balance for new users.
